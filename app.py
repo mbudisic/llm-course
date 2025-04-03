@@ -18,9 +18,11 @@ system_template = """You are a helpful assistant who always speaks in a pleasant
 
 """
 
-user_template = """{input}
-Think through your response step by step unless asked to be concise. In that
-case, use no more than 2 sentences.
+user_template = """Your task is to: {input}
+
+Think through your response step by step.
+If asked to be concise, ignore step by step directive and use only 1 or 2 sentences.
+I'm going to tip $100 for extra careful responses.
 """
 
 
@@ -80,6 +82,13 @@ vibe_check = {
             return 1;
     }
     """,
+    "logic": """
+    You are on an island where some people always tell the truth and some always lie. You meet two islanders:
+
+    Alice says, “Bob is a liar.”
+    Bob says, “We are both truth-tellers.”
+
+    Who is telling the truth?""",
 }
 
 
