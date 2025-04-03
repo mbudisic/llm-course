@@ -32,16 +32,23 @@ vibe_check = {
     "summarize": """
     Read the following paragraph and provide a concise summary of the key points:
     
-    It is clear enough that some of Kierkegaard's early writings contained disguised 
-    communications to Regine, who soon married another man (Johan Frederik Schlegel, 
-    later Governor-General of the Danish West Indies), which meant that Kierkegaard 
-    could not communicate directly with her. He hoped she might come to realize that 
-    he still loved her, but also understand why he could not go through with the 
-    marriage. Biographies of Kierkegaard often focus on the broken engagement in 
-    detail, and commentators have sometimes gone to great 
-    lengths to find "messages to Regine" in Kierkegaard's texts, some more plausible than others. However, 
-    Regine was far from the only person who could be described as "that individual" to whom Kierkegaard 
-    dedicated many of his works.
+    Modern large language models (LLMs), such as GPT and PaLM, rely on 
+    transformer architectures that use self-attention mechanisms to process 
+    sequences in parallel, enabling scalability and high performance on a 
+    wide array of natural language tasks. Training these models involves 
+    massive datasets comprising text from books, websites, code repositories, 
+    and scientific papers, which provide the statistical foundation for 
+    learning linguistic patterns and factual associations. Despite their 
+    impressive capabilities, LLMs exhibit limitations such as hallucination 
+    (i.e., generating plausible but incorrect information), lack of true 
+    understanding, and high computational costs during training and inference. 
+    Ongoing research explores strategies like retrieval-augmented generation 
+    (RAG), fine-tuning on domain-specific corpora, and integrating symbolic 
+    reasoning modules to mitigate these weaknesses. Additionally, there is 
+    increasing emphasis on aligning LLM behavior with human intent using 
+    reinforcement learning from human feedback (RLHF), as well as efforts 
+    to reduce environmental impact through model distillation and efficient 
+    hardware utilization.
     """,
     "create": "Write a short, imaginative story (100–150 words) about a robot finding "
     "friendship in an unexpected place.",
