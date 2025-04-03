@@ -128,7 +128,8 @@ async def start_chat():
         author="assistant",
         content=f"""
                      Running on {my_model}.
-                     Other options are {model_list}""",
+                     To change set `BEYOND_MODEL` env variable to one of
+                     {model_list}""",
     ).send()
     await msg.send()
 
